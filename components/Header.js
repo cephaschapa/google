@@ -27,7 +27,7 @@ function Header() {
                 <SearchIcon className="h-6 hidden sm:inline-flex text-blue-500" />
                 <button hidden className="" onClick={t}>Search</button>
             </form>
-            <Avatar className="ml-auto" url='https://coaching.papareact.com/ai9' />
+            <Avatar className="ml-auto rounded-full bg-gray-300" />
           </div>
           {/* Header Options */}
           <HeaderOptions className="" />

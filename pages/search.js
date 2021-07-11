@@ -14,7 +14,7 @@ function Search({results}) {
                 <title>{router.query.term} - Google Results</title>
             </Head>
             {/* Header */}
-            <Header />
+            <Header url={""}/>
             {/* Search Results */}
             <SearchResults results={results}/>
         </div>
