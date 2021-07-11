@@ -59,7 +59,7 @@ export default function Home() {
           </div>
           <div className="flex flex-col mt-5  w-1/2 justify-center space-y-2 sm:flex-row sm:space-x-4">
             <button onClick={search} className="center-btn">Google Search</button>
-            <button onClick={search} className="center-btn">I'm Feeling Lucky</button>
+            <button onClick={search} className="center-btn">Im Feeling Lucky</button>
           </div>
         </form>
         {/* footer */}
